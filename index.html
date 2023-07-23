@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Fontawesome -->
+    <script
+      src="https://kit.fontawesome.com/42a182743f.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans&family=Roboto:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Responsive design</title>
+  </head>
+  <body>
+    <!-- nav -->
+    <nav>
+      <div>
+        <img src="data:image/jpeg;base64,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" alt="logo" />
+      </div>
+
+      <ul>
+        <li>
+          <a href="#">Home</a>
+        </li>
+        <li>
+          <a href="#">Posts</a>
+        </li>
+        <li>
+          <a href="#">Login</a>
+        </li>
+        <li>
+          <a href="#">Register</a>
+        </li>
+        <li>
+          <a href="#" class="create-post-btn">New Post</a>
+        </li>
+      </ul>
+    </nav>
+    <!-- header -->
+    <header>
+      <div class="header-content">
+        <h1>You write, We read</h1>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores
+          reiciendis
+        </p>
+        <a href="#">
+          <span>Create New Post</span>
+        </a>
+      </div>
+    </header>
+    <!-- content -->
+    <section class="container-flex">
+      <!-- main -->
+      <main>
+        <article class="post-content">
+          <h1 class="post-title">Why MERN Stack is on Hot Cake?</h1>
+          <img src="./images/post2.jpg" alt="" class="post-image" />
+          <p class="post-info">
+            <span class="post-author">
+              <i class="fas fa-user"></i>
+              <a href="#">Aviral Singh</a>
+            </span>
+            <span class="post-date">
+              <i class="far fa-calendar-alt"></i>
+              <time datetime="2020-01-01">January 1, 2020</time>
+            </span>
+          </p>
+          <p class="post-body">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia
+            itaque inventore culpa placeat! Cum nam optio, labore, voluptas sunt
+            quam rem cupiditate laboriosam amet reiciendis velit doloribus eum!
+            Repudiandae, odio?
+          </p>
+          <a href="/" class="post-read-more">Continue Reading...</a>
+        </article>
+
+        <article class="post-content">
+          <h1 class="post-title">Become a Web Developer</h1>
+          <img src="./images/post3.jpg" alt="" class="post-image" />
+          <p class="post-info">
+            <span class="post-author">
+              <i class="fas fa-user"></i>
+              <a href="#">Aviral Singh</a>
+            </span>
+            <span class="post-date">
+              <i class="far fa-calendar-alt"></i>
+              <time datetime="2020-01-01">January 1, 2020</time>
+            </span>
+          </p>
+          <p class="post-body">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia
+            itaque inventore culpa placeat! Cum nam optio, labore, voluptas sunt
+            quam rem cupiditate laboriosam amet reiciendis velit doloribus eum!
+            Repudiandae, odio?
+          </p>
+          <a href="/" class="post-read-more">Continue Reading...</a>
+        </article>
+
+        <article class="post-content">
+          <h1 class="post-title">How to Take care of Cat</h1>
+          <img src="./images/post7.jpg" alt="" class="post-image" />
+          <p class="post-info">
+            <span class="post-author">
+              <i class="fas fa-user"></i>
+              <a href="#">Aviral Singh</a>
+            </span>
+            <span class="post-date">
+              <i class="far fa-calendar-alt"></i>
+              <time datetime="2020-01-01">January 1, 2020</time>
+            </span>
+          </p>
+          <p class="post-body">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia
+            itaque inventore culpa placeat! Cum nam optio, labore, voluptas sunt
+            quam rem cupiditate laboriosam amet reiciendis velit doloribus eum!
+            Repudiandae, odio?
+          </p>
+          <a href="/" class="post-read-more">Continue Reading...</a>
+        </article>
+
+        <article class="post-content">
+          <h1 class="post-title">Ways to become a Web Developer</h1>
+          <img src="./images/post5.jpg" alt="" class="post-image" />
+          <p class="post-info">
+            <span class="post-author">
+              <i class="fas fa-user"></i>
+              <a href="#">Aviral Singh</a>
+            </span>
+            <span class="post-date">
+              <i class="far fa-calendar-alt"></i>
+              <time datetime="2020-01-01">January 1, 2020</time>
+            </span>
+          </p>
+          <p class="post-body">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia
+            itaque inventore culpa placeat! Cum nam optio, labore, voluptas sunt
+            quam rem cupiditate laboriosam amet reiciendis velit doloribus eum!
+            Repudiandae, odio?
+          </p>
+          <a href="/" class="post-read-more">Continue Reading...</a>
+        </article>
+      </main>
+      <!-- aside -->
+      <aside class="sidebar">
+        <div class="about-me">
+          <h2>About The Author</h2>
+          <img class="avatar" src="./images/pic2.jpg" alt="" />
+
+          <h2 class="about-name">Aviral</h2>
+          <small>FullStack Web Developer</small>
+          <p class="about-me-bio">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum
+            adipisci eligendi nobis itaque ex? Veniam tempore itaque cumque
+            fugiat iusto voluptatibus odit inventore dolorem numquam maxime,
+            repellendus labore corrupti expedita?
+          </p>
+        </div>
+
+        <div class="sidebar-content">
+          <h1 class="post-title">The Future of Tech</h1>
+          <img src="./images/post1.jpg" alt="" class="post-image" />
+          <p class="post-info">
+            <span class="post-author">
+              <i class="fas fa-user"></i>
+              <a href="#">Aviral Singh</a>
+            </span>
+            <span class="post-date">
+              <i class="far fa-calendar-alt"></i>
+              <time datetime="2020-01-01">January 1, 2020</time>
+            </span>
+          </p>
+          <p class="post-body">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia
+            itaque inventore culpa placeat! Cum nam optio, labore, voluptas sunt
+            quam rem cupiditate laboriosam amet reiciendis velit doloribus eum!
+            Repudiandae, odio?
+          </p>
+          <a href="/" class="post-read-more">Continue Reading...</a>
+        </div>
+        <div class="sidebar-content">
+          <h1 class="post-title">Start Here</h1>
+          <img src="./images/post4.jpg" alt="" class="post-image" />
+          <p class="post-info">
+            <span class="post-author">
+              <i class="fas fa-user"></i>
+              <a href="#">Aviral Singh</a>
+            </span>
+            <span class="post-date">
+              <i class="far fa-calendar-alt"></i>
+              <time datetime="2020-01-01">January 1, 2020</time>
+            </span>
+          </p>
+          <p class="post-body">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia
+            itaque inventore culpa placeat! Cum nam optio, labore, voluptas sunt
+            quam rem cupiditate laboriosam amet reiciendis velit doloribus eum!
+            Repudiandae, odio?
+          </p>
+          <a href="/" class="post-read-more">Continue Reading...</a>
+        </div>
+        <div class="sidebar-content">
+          <h1 class="post-title">Think Before you start</h1>
+          <img src="./images/post6.jpg" alt="" />
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum
+            adipisci eligendi nobis itaque ex? Veniam tempore itaque cumque
+            fugiat iusto voluptatibus odit inventore dolorem numquam maxime,
+            repellendus labore corrupti expedita?
+          </p>
+        </div>
+        <div class="sidebar-content">
+          <h1 class="post-title">Learn HTML</h1>
+          <img src="./images/post2.jpg" alt="" class="post-image" />
+          <p class="post-info">
+            <span class="post-author">
+              <i class="fas fa-user"></i>
+              <a href="#">Aviral Singh</a>
+            </span>
+            <span class="post-date">
+              <i class="far fa-calendar-alt"></i>
+              <time datetime="2020-01-01">January 1, 2020</time>
+            </span>
+          </p>
+          <p class="post-body">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia
+            itaque inventore culpa placeat! Cum nam optio, labore, voluptas sunt
+            quam rem cupiditate laboriosam amet reiciendis velit doloribus eum!
+            Repudiandae, odio?
+          </p>
+          <a href="/" class="post-read-more">Continue Reading...</a>
+        </div>
+        <div class="sidebar-content">
+          <h2 class="widget-title">sidebar title</h2>
+          <img src="./images/post8.jpg" alt="" />
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum
+            adipisci eligendi nobis itaque ex? Veniam tempore itaque cumque
+            fugiat iusto voluptatibus odit inventore dolorem numquam maxime,
+            repellendus labore corrupti expedita?
+          </p>
+        </div>
+      </aside>
+    </section>
+    <!-- footer -->
+    <footer>
+      <div class="about">
+        <h1><span class="logo-text">Aviral's </span> <span>Blog</span></h1>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti a
+          recusandae, molestiae incidunt
+        </p>
+        <!-- Contacts -->
+        <div class="contact">
+          <span>
+            <i class="fas fa-phone"></i>
+            +91 14523697 
+          </span>
+          <span>
+            <i class="fas fa-envelope"></i>
+            
+            <a href="mailto:aviral@gmail.com">
+              support@aviral.com
+            </a>
+          </span>
+
+        </div>
+        <!-- socials -->
+        <div class="socials">
+          <a href="https://www.youtube.com">
+            <i class="fab fa-youtube"></i>
+          </a>
+          <a href="https://www.youtube.com">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="https://www.youtube.com">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="https://www.youtube.com">
+            <i class="fab fa-facebook"></i>
+          </a>
+         
+    </footer>
+  </body>
+</html>
